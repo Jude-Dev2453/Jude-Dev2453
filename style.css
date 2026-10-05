@@ -1,0 +1,92 @@
+
+.home{
+    background: url(j\ \(1\).jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.text-content{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    color: white;
+}
+.about-content{
+    margin: 10% auto 0 auto;
+    width: 20%;
+}
+.about-content h1{
+    text-align: justify;
+}
+.about-content p{
+    text-align: center;
+}
+    @import
+        url('https://fonts.googleapis.com/css?family=Roboto');
+.about-content h1{
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+}
+@import
+        url('https://fonts.googleapis.com/css?family=Roboto');
+.about-content p{
+    text-align: justify;
+    font-family: 'Roboto',sans-serif;
+}
+.about-content h1{/n
+    text-align: center;
+    font-family: 'Roboto',sans-serif;
+    color: red;
+}       
+.about-content p{
+    text-align: justify;
+    font-family: 'Roboto',sans-serif;
+    color: green;
+}
+.serv-content{
+    text-align: center;
+    margin: 10% auto 0 auto;
+}
+.card-container ul{
+    padding: 0;
+}
+.card-container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 1%;
+    width: 30%;
+}
+.i{
+    width: 45%;
+    height: 35%;
+}
+.p{
+    width: 45%;
+    height: 35%;
+}
+.k{
+     width: 45%;
+    height: 35%;
+}
+.serv-content h1{
+    font-family: 'Roboto', sans-serif;
+    color: red;
+}
+.card-container ul li p{
+    text-align: justify;
+    font-family: 'Roboto',sans-serif;
+    color: green;
+}
+.cont{
+    text-align: center;
+    margin: 10% auto 0 auto;
+
+}
+.cont h1{
+    font-family: 'Roboto',sans-serif;
+    color: red;
+}
+.dress{
+    font-family: 'Lato', sans-serif;
+}

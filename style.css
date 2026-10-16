@@ -1,92 +1,65 @@
-
-.home{
-    background: url(j\ \(1\).jpg);
-    background-size: cover;
-    height: 100vh;
-}
-.text-content{
-    text-align: center;
+.n{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 90vh;
+    justify-content: space-around;
+    background-color: rgb(75, 31, 31);
+    padding: 10px;
+    border: solid 1px white ;
+    
+}
+.n a{
+    text-decoration: none;
     color: white;
 }
-.about-content{
-    margin: 10% auto 0 auto;
-    width: 20%;
+
+.b{
+    background-color: rgb(165, 20, 20);
+    border: none;
+    height: 27px;
+    border-radius: 2px;
 }
-.about-content h1{
-    text-align: justify;
-}
-.about-content p{
+.f{
     text-align: center;
-}
-    @import
-        url('https://fonts.googleapis.com/css?family=Roboto');
-.about-content h1{
-    text-align: center;
-    font-family: 'Roboto',sans-serif;
-}
-@import
-        url('https://fonts.googleapis.com/css?family=Roboto');
-.about-content p{
-    text-align: justify;
-    font-family: 'Roboto',sans-serif;
-}
-.about-content h1{/n
-    text-align: center;
-    font-family: 'Roboto',sans-serif;
-    color: red;
-}       
-.about-content p{
-    text-align: justify;
-    font-family: 'Roboto',sans-serif;
-    color: green;
-}
-.serv-content{
-    text-align: center;
-    margin: 10% auto 0 auto;
-}
-.card-container ul{
-    padding: 0;
-}
-.card-container ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 1%;
-    width: 30%;
-}
-.i{
-    width: 45%;
-    height: 35%;
-}
-.p{
-    width: 45%;
-    height: 35%;
-}
-.k{
-     width: 45%;
-    height: 35%;
-}
-.serv-content h1{
-    font-family: 'Roboto', sans-serif;
-    color: red;
-}
-.card-container ul li p{
-    text-align: justify;
-    font-family: 'Roboto',sans-serif;
-    color: green;
-}
-.cont{
-    text-align: center;
-    margin: 10% auto 0 auto;
 
 }
-.cont h1{
-    font-family: 'Roboto',sans-serif;
-    color: red;
+body{
+    background-color: rgb(39, 31, 31);
 }
-.dress{
-    font-family: 'Lato', sans-serif;
+.f form{
+    width: 250px;
+    min-height: 400px;
+    margin: auto;
+    display: grid;
+    
 }
+.c{
+    background-color: red;
+    border: none;
+    
+}
+.f h1{
+    color: white;
+}
+.git{
+    width: 20px;
+
+}
+.bro{
+    width: 20px;
+    color: white;
+    
+}
+.log{
+     width: 20px;
+}
+.f form p{
+    color: white;
+    margin-right: 100px;
+}
+legend{
+    color: white;
+}
+
+    
+    
+
+    

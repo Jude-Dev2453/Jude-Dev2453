@@ -1,50 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>master.dev/login/</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <nav class="n">
+    <div id="calculator">
+           <input id="display" readonly>
+           <div id="keys">
+            <button onclick="appendToDisplay('+')" class="op">+</button>
+            <button onclick="appendToDisplay('7')">7</button>
+            <button onclick="appendToDisplay('8')">8</button>
+            <button onclick="appendToDisplay('9')">9</button>
+            <button onclick="appendToDisplay('-')" class="op">-</button>
+            <button onclick="appendToDisplay('4')">4</button>
+            <button onclick="appendToDisplay('5')">5</button>
+            <button onclick="appendToDisplay('6')">6</button>
+            <button onclick="appendToDisplay('x')" class="op">x</button>
+            <button onclick="appendToDisplay('1')">1</button>
+            <button onclick="appendToDisplay('2')">2</button>
+            <button onclick="appendToDisplay('3')">3</button>
+            <button onclick="appendToDisplay('&#247' )" class="op">&#247</button>
+            <button onclick="appendToDisplay('0')">0</button>
+            <button onclick="appendToDisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="clearDisplay()" class="op">C</button>
 
-
-        <a href="#"></a>
-        <a href="master.html"><img src="m logo.jpeg" alt="logo" class="log">master.dev</a>
-        <a href="paths.html">Paths</a>
-        <a href="courses.html">Courses</a>
-        <a href="blog.html">Blog</a>
-        <a href="features.html">Features</a>
-        <a href="pricing.html">Pricing</a>
-        <a href="live.html"><img src="broadcast.svg" alt="bro" class="bro">  Live</a>
-        <link rel="stylesheet" href="style.css">
-        <div>
-            <button class="b">Join now</button>
-            <a href="log.html">Login</a>
-        </div>
-
-    </nav>
-    <div class="f">
-        <h1>Sign in to your account</h1>
-        <form action="master">
-            <button><img src="github.svg" alt="git" class="git">  Log in with GitHub</button>
-            <legend>or</legend>
-            <P>Username or Email</P>
-            <input type="text" placeholder="Username or Email">
-            <p>Password</p>
-            <input type="alphanumeric" placeholder="Password"><br>
-            <input type="checkbox"> Remember me
-            <a href="forget.html"> Forgot your password</a><br>
-            <button class="c">Continue</button>
-
-
-
-        </form>
+           </div>
 
     </div>
-
+    <script src="scripts.js"></script>
 </body>
-
 </html>

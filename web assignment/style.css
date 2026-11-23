@@ -1,0 +1,176 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(223, 20, 20, 0.655);
+    margin: none;
+    padding: 8px;
+    border-radius: 35px;
+
+
+
+
+}
+
+
+
+.home {
+    background: url(IMG_20260906_144518_066.jpg);
+    background-size: cover;
+}
+
+.managment {
+    margin-left: auto;
+    margin-bottom: 15px;
+
+
+}
+
+h1 {
+    color: white;
+}
+
+.wat {
+    border: none;
+
+    text-align: center;
+    height: 25vh;
+    border-radius: 50px;
+    padding: 10%;
+    margin-top: 20%;
+
+
+}
+.register{
+   background: url(reg.jfif);
+   background-size: contain;
+   
+   
+}
+.ty {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+
+
+.log {
+    width: 300px;
+    margin: 70px auto;
+    padding: 20px;
+    background: white;
+    text-align: center;
+    box-shadow: 0 0 10px gray;
+    background-color: rgba(157, 85, 224, 0.849);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius:20% ;
+    border: 1px solid;
+
+}
+
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+}
+
+button {
+    padding: 10px 30px;
+
+}
+
+.y {
+    padding: 28px;
+}
+
+.y a {
+    text-decoration: none;
+    color: white;
+}
+
+.wat button {
+    border: none;
+    border-radius: 15px;
+    min-height: 3em;
+    background-color: rgba(0, 0, 0, 0.6);
+    
+
+}
+
+    
+
+
+.wat button a {
+    text-decoration: none;
+    color: beige;
+
+}
+
+.t {
+    width: 400px;
+    margin: auto;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 90px;
+    padding: 15px;
+    box-sizing: content-box;
+    box-shadow: 2px 4px 4px 2px ;
+    background-color: rgba(255, 255, 0, 0.381);
+
+
+}
+
+legend {
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.reduce {
+    width: 25em;
+    color: blue;
+}
+
+.about {
+    background: url(admin.jfif);
+    background-size: cover;
+}
+
+.p {
+    color: white;
+}
+
+@import url(https://fonts.googleapis.com);
+
+.p {
+    font-family: roboto, sans-serif;
+    font-weight: 10px;
+}
+
+.login {
+    background: url(umu\ logo.png);
+    background-size: cover;
+}
+
+.img {
+    width: 50px;
+    margin-top: 20px;
+    padding-left: 15%;
+}
+.continue{
+   padding-left: 60em;
+
+   
+}
+.continue button{
+    background-color: rgba(128, 0, 128, 0.765);
+    border: none;
+    border-radius: 6px;
+}
+.continue a{
+    text-decoration: none;
+    color: white;
+}
+
+    

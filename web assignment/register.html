@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="register">
+    <div class="head">
+         <div>
+            <img src="umu logo.png" alt="logo" class="img">
+         </div>
+        <div class="management">
+            <h1>Student Management System</h1>
+        </div>
+        <div class="y">
+            <a href="home.html">Home</a>
+        </div>
+        <div class="y">
+            <a href="register.html">Register</a>
+        </div>
+        <div class="y">
+            <a href="login.html">Login</a>
+        </div>
+        <div class="y">
+            <a href="about.html">About us</a>
+        </div>
+
+
+    </div>
+
+
+    <form onsubmit="return registerHere()" class="f">
+        <fieldset class="t">
+            <legend>Register here</legend>
+
+
+            Full Name<input type="text" id="name" placeholder="Full Name" class="reduce">
+
+
+
+            Registration Number<input type="alphanumeric" id="number" placeholder="Registration Number" class="reduce">
+
+
+
+           Email <input id="mail" placeholder="Email eg eriot.john@stud.umu.ac"class="reduce">
+
+
+
+
+
+            Course<input type="text" id="course" placeholder="Course" class="reduce">
+
+
+
+           Year <input type="text" id="year" placeholder="Year" class="reduce">
+
+
+
+
+           Password <input type="password" id="password" placeholder="Password" class="reduce">
+
+
+
+            Confirm Password<input type="password" id="confirm" placeholder="Confirm Password" class="reduce"><br>
+
+           Gender <div class="ty">
+                <div>
+                    <label for="gender">Male</label><br>
+                    <input type="radio" name="gender" value="Male">
+                </div>
+                <div>
+                    <label for="gender">Female</label><br>
+                    <input type="radio" name="gender" value="Female">
+                </div>
+
+
+            </div>
+
+
+            <br><br>
+            <button type="submit">Submit</button>
+            <p id="see" style="color:red"></p>
+        </fieldset>
+    </form>
+    <div class="continue">
+       <h3> click continue to go to next page</h3>
+        <button><a href="login.html">continue</a></button>
+    </div>
+
+
+
+
+
+
+
+    </form>
+    <script src="script.js"></script>
+</body>
+
+</html>
